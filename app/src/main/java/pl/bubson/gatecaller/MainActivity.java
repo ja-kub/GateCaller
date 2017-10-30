@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        // Runtime permissions = fro mAndroid 6.0
+        // Runtime permissions - from mAndroid 6.0
         if (ContextCompat.checkSelfPermission(getApplicationContext(),
                 Manifest.permission.READ_PHONE_STATE)
                 != PackageManager.PERMISSION_GRANTED) {

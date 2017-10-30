@@ -33,7 +33,6 @@ public class CallReceiver extends PhonecallReceiver {
 
     protected CallReceiver() {
         // Exists only to defeat instantiation.
-        Log.i(TAG, "CallReceiver: sterted");
     }
 
     public static CallReceiver getInstance() {

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 /**
  * Created by Kuba on 2016-10-18.
@@ -24,7 +23,6 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         // The service is being created
-        Log.i(TAG, "onCreate: started");
         IntentFilter filter = new IntentFilter();
         filter.addAction("android.intent.action.PHONE_STATE");
         filter.addAction("android.intent.action.NEW_OUTGOING_CALL");
