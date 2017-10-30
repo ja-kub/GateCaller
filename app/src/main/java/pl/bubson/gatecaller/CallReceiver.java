@@ -67,7 +67,11 @@ public class CallReceiver extends PhonecallReceiver {
         if (phones != null) {
             try {
                 while (phones.moveToNext()) {
-                    String num = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER)).replaceFirst("\\+48","").replaceAll("-","").replaceAll(" ","");
+                    String num = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER))
+                            .replaceFirst("\\+48","")
+                            .replaceAll("-","")
+                            .replaceAll(" ","")
+                            .replaceFirst("0048","");
                     contactsNumbers.add(num);
                 }
             } finally {
