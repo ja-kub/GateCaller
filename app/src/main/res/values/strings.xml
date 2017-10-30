@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gate caller</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_info">
+    <![CDATA[
+        <h1>Instrukcja obsługi:</h1>
+        <h4>Aby wystartować serwis naciśnij zielony przycisk z lewej.</h4>
+        <h4>Aby zatrzymać serwis naciśnij czerwony przycisk z prawej (wyjście z aplikacji nie zatrzymuje serwisu).</h4>
+        <h4>Tylko numery telefonów z książki adresowej są akceptowane.</h4>
+    ]]>
+    </string>
+</resources>
